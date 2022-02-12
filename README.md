@@ -1,5 +1,5 @@
 # Channels
-![proof](https://user-images.githubusercontent.com/90114741/153699244-095ae01f-5589-4646-ac9c-d44e6b5e32e8.png)
+![proof](https://user-images.githubusercontent.com/90114741/153699244-095ae01f-5589-4646-ac9c-d44e6b5e32e8.png)\
 Log every Text/Voice channel in a discord guild
 
 # Features
