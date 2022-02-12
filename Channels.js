@@ -33,12 +33,12 @@ client.on("message", async message => {
             const TextChannels = guild.channels.filter(channel => channel.type === "text");
 
             TextChannels.forEach(channel => {
-                console.log(chalk.green(`[T] ${channel.name}<>${channel.id} `))
+                console.log(chalk.green(`[T] ${channel.name} <id> ${channel.id} `))
         })
         const VoiceChannels = guild.channels.filter(channel => channel.type === "voice");
 
               VoiceChannels.forEach(channel => {
-                console.log(chalk.yellow(`[V] ${channel.name}<>${channel.id} `))
+                console.log(chalk.yellow(`[V] ${channel.name} <id> ${channel.id} `))
         })
         console.log(chalk.red("FINISHED LOGGING ALL CHANNELS/VOICE CHANNELS"))
         process.exit()
